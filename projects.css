@@ -1,0 +1,139 @@
+
+body {
+  background-image:url("tulips.gif");
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+#mySidenav a {
+
+  left: -80px; 
+  width: 100px; 
+  font-size: 20px;
+  color: black; 
+
+
+}
+
+#about {
+    top: 50px;
+    background-color:rgb(222, 19, 19);
+}
+
+}
+
+#projects {
+  top: 150px;
+  background-color: grey;
+}
+
+h1 {
+  text-shadow: 2px 3px black;  
+  font-size: 80px;
+  color: white;
+  font-family: Rockwell Extra Bold;
+  white-space: nowrap; 
+  margin: 1px;
+  letter-spacing: .15em;
+ 
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.header {
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+.image {
+  flex-basis: 40%
+}
+.text {
+  color: black;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.main {
+  max-width: 1000px;
+  margin: auto; 
+  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  font-family: 'Poppins'
+}
+h1 {
+  font-size: 50px;
+  word-break: break-word;
+}
+.row {
+  margin: 100px -16px;
+    transition: 0.3s;
+}
+.row,
+.row > .column {
+  padding: 8px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  transition: 0.5s;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    transition: 0.5s;
+}
+.content {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 50px 25px;
+  transition: 0.5s;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    transition: 0.5s;
+  }
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+.column:hover {
+  padding: 1px;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+p:hover {
+  color: #e6dfdf;
+}
